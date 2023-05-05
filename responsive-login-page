@@ -1,0 +1,156 @@
+<!----------------------------Html -------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<!------------------------NavBar--------------------------------------->
+    <header>
+        <nav class="nav">
+          
+  
+          <div class="hamburger">
+            <i onclick="myFunction(this)" class="fa fa-align-justify"></i>
+          </div>
+  
+          <div class="nav__link hide">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">blog</a>
+            <div class="icons">
+              <img src="./image/instagram-line.png" alt="" srcset="">
+             <img src="./image/facebook-box-fill (1).png" alt="">
+             <img src="./image/twitter-fill.png" alt="">
+             <img src="./image/linkedin-box-fill.png" alt="">
+             </div>
+          </div>
+          <div class="logo">
+            <a href="/" class="logo">Portfolio <span style="color: #c9c4c4" >2</span> Grow</a>
+          </div>
+          
+          <div class="icons">
+           <img src="./image/instagram-line.png" alt="" srcset="">
+          <img src="./image/facebook-box-fill (1).png" alt="">
+          <img src="./image/twitter-fill.png" alt="">
+          <img src="./image/linkedin-box-fill.png" alt="">
+          </div>
+        </nav>
+      </header>
+
+<section>
+  
+    <div class="heading">
+    <h1>Abdul Basit</h1>
+  </div>
+  <div class="hero-section-parent">
+<div class="services">
+  <h1>Services</h1>
+  <!---Card-1-->
+  <div class="card-1">
+    <div class="card-1-details">
+<img src="./image/Group.png" alt="">
+<span>Web development</span>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+  </p>
+</div>
+ <!---Card-2-->
+<div class="card-2">
+  <div class="card-1-details">
+<img src="./image/Group (1).png" alt="">
+<span>UI UX Design</span>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+</p>
+</div>
+ <!---Card-3-->
+<div class="card-3">
+  <div class="card-1-details">
+<img src="./image/Group (2).png" alt="">
+<span>UI UX Design</span>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+</p>
+</div>
+</div>
+<!--------image-section------>
+<div class="image-section">
+  <img src="./image/image.png" alt="">
+</div>
+
+
+<!-----------------Right-sub-details---------------------->
+
+<div class="right-sub-details">
+  <h1>Software Developer Specialized in <br>
+    Frontend Web Development
+  </h1>
+
+<div class="para-section">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque adipisci ea
+     dignissimos nihil at odit eos modi. At fugiat rem et,, soluta perspiciatis saepe!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque adipisci ea
+      dignissimos nihil at odit eos modi. At fugiat rem et,, soluta perspiciatis saepe!</p>
+</div>
+
+<button>Hire Me</button>
+<div class="expirence-section">
+  <div class="9+">
+<h1>9+ Years</h1>
+<p>Experience</p>
+  </div>
+  <div class="99+">
+    <h1>99+</h1>
+    <p>Clients</p>
+      </div>
+</div>
+
+
+
+
+</div>
+
+</div>
+</div>
+  </div>
+ 
+</section>
+
+
+
+    <script>
+	const hamburger = document.querySelector('.hamburger');
+const navLink = document.querySelector('.nav__link');
+
+hamburger.addEventListener('click', () => {
+  navLink.classList.toggle('hide');
+});
+
+function myFunction(x) {
+  x.classList.toggle("fas fa-close");
+}
+
+
+
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
